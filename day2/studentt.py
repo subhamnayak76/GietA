@@ -8,6 +8,9 @@ for i in avg:
         c = c+1  
 print(c*10)    
 list1 =[]
+# sort the score
+list2 = score.sort()
+
 # genterte frequncy
 for  i in range(0,26):
     c = 0
